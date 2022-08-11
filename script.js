@@ -34,6 +34,6 @@ botaoSim.addEventListener('click', () => {
     document.getElementById('buttons').style.display = "none"
     document.getElementById('images').style.display = "inline"
     document.getElementById('titulo').innerText = "Acertou meu amor!!  ❤😍"
-    document.getElementById('body').style.backgroundImage = "url(/images/fogos.jpg)";
+    document.getElementById('body').style.backgroundImage = "url(images/fogos.jpg)";
     document.getElementById('body').style.backgroundSize = "100%"
 })
