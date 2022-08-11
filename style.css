@@ -1,0 +1,63 @@
+body {
+    background-color: #000000db;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #ff1d46;
+    border-radius: 14%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#titulo {
+    color: white;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.imgDaGata {
+    width: 130px;
+}
+
+#images {
+    margin-bottom: 5%;
+    /* display: flex; */
+    /* width: 1%; */
+}
+
+.photo12 {
+    display: flex;
+}
+
+.photo34 {
+    display: flex;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+#sim {
+    background-color: #85135d;
+    border: #85135d;
+    /* border-radius: 1%; */
+}
+
+#nao {
+    background-color: #85135d;
+    border: #85135d;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
