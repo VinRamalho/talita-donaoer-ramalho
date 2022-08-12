@@ -75,6 +75,6 @@ function myFunction(resolucao) {
     }
 }
 
-var resolucao = window.matchMedia("(max-width: 500px)")
+var resolucao = window.matchMedia("(max-width: 700px)")
 myFunction(resolucao) // Call listener function at run time
 resolucao.addListener(myFunction) // Attach listener function on state changes
