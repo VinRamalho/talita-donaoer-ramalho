@@ -3,6 +3,7 @@ body {
     margin-top: 5%;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 #container {
@@ -16,6 +17,7 @@ body {
     border-radius: 14%;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
+    /* margin: 0 1%; */
 }
 
 #titulo {
@@ -36,10 +38,12 @@ body {
 
 .photo12 {
     display: flex;
+    justify-content: center;
 }
 
 .photo34 {
     display: flex;
+    justify-content: center;
 }
 
 #buttons {
@@ -61,3 +65,29 @@ body {
     margin-top: 10%;
     margin-bottom: 30%;
 }
+
+
+@media screen and (max-width: 500px) {
+    #body{
+        margin-top: 30%;
+    }
+
+    #container {
+        width: 90%;
+        height: 500px;
+    }
+
+    #titulo {
+        margin-top: 5%;
+    }
+
+    #images {
+        display: flex;
+        align-items: center;
+    }
+
+    .imgDaGata {
+        width: 35%;
+        /* height: 250px; */
+    }
+  }
