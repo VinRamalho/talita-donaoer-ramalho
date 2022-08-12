@@ -30,8 +30,25 @@ body {
     width: 130px;
 }
 
+.um {
+    border-top-left-radius: 6%;
+}
+
+.dois {
+    border-top-right-radius: 6%;
+}
+
+.tres {
+    border-bottom-left-radius: 6%;
+}
+
+.quatro {
+    border-bottom-right-radius: 6%;
+}
+
 #images {
     margin-bottom: 5%;
+    border-radius: 13%;
     /* display: flex; */
     /* width: 1%; */
 }
