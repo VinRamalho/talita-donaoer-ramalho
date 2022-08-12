@@ -43,7 +43,6 @@ function myFunction(resolucao) {
     } else {
         botaoNao.addEventListener('click', (e) => {
             cont = true;
-            console.log(e.offsetX);
             x = e.offsetX
             y = e.offsetY
             botaoNao.style.position = "absolute";
